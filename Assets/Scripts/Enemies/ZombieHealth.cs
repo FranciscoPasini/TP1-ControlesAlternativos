@@ -75,7 +75,17 @@ public class ZombieHealth : MonoBehaviour
 
     void Die()
     {
-        Destroy(gameObject);
+        Spawner spawner = FindObjectOfType<Spawner>();
+
+        if (spawner != null)
+        {
+            spawner.ReturnToPool(gameObject);
+        }
+        else
+        {
+            Debug.LogWarning("Spawner no encontrado, desactivando directamente.");
+            gameObject.SetActive(false);
+        }
     }
 
     void OnDestroy()
