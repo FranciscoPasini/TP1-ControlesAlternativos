@@ -1,9 +1,9 @@
+
 using System.Collections;
-using System.Collections.Generic;
 using TMPro;
-using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+
 
 public class GameController : MonoBehaviour
 {
@@ -63,6 +63,7 @@ public class GameController : MonoBehaviour
     public void AddPoint()
     {
         points++;
+        timer += 2f;
         UpdateUI();
         SpawnPortal();
     }

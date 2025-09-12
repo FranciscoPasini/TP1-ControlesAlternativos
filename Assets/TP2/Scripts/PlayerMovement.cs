@@ -1,5 +1,7 @@
+
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
@@ -59,4 +61,7 @@ public class PlayerMovement : MonoBehaviour
 
         transform.position = new Vector3(clampedX, clampedY, transform.position.z);
     }
+
 }
+
+

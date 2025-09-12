@@ -1,3 +1,4 @@
+
 using UnityEngine.SceneManagement;
 using System.Collections;
 using System.Collections.Generic;
@@ -32,7 +33,10 @@ public class MainMenuManager : MonoBehaviour
 
     public void ExitButton()
     {
+#if UNITY_EDITOR
         UnityEditor.EditorApplication.isPlaying = false;
+#else
         Application.Quit();
+#endif
     }
 }
