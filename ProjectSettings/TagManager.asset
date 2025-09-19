@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Zombie
+  - Pickup
   layers:
   - Default
   - TransparentFX
@@ -13,11 +14,11 @@ TagManager:
   - Water
   - UI
   - PlayerWall
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Metal
+  - Plastico
+  - Madera
+  - Vidrio
+  - Pickup
   - 
   - 
   - 

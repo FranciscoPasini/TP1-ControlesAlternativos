@@ -1,108 +1,143 @@
-
 using System.Collections;
-using TMPro;
 using UnityEngine;
+using TMPro;
 using UnityEngine.SceneManagement;
-
 
 public class GameController : MonoBehaviour
 {
-    public GameObject portalPrefab;
+    public static GameController Instance { get; private set; }
+
+    [Header("Prefabs de objetos")]
+    public GameObject metalPrefab;
+    public GameObject maderaPrefab;
+    public GameObject plasticoPrefab;
+    public GameObject vidrioPrefab;
+
+    [Header("Limites de spawn")]
     public Transform leftLimit;
     public Transform rightLimit;
     public Transform topLimit;
     public Transform bottomLimit;
+
+    [Header("UI")]
     public TextMeshProUGUI pointsText;
     public TextMeshProUGUI timerText;
     public TextMeshProUGUI gameOverText;
+
+    [Header("Gameplay")]
     public float timer = 60f;
+    public float spawnInterval = 5f;
+
     private int points = 0;
-    private GameObject currentPortal;
     private bool isGameOver = false;
     private bool canRestart = false;
+
+    private void Awake()
+    {
+        if (Instance == null) Instance = this;
+        else Destroy(gameObject);
+    }
 
     void Start()
     {
         Time.timeScale = 1f;
-        SpawnPortal();
         UpdateUI();
-        gameOverText.gameObject.SetActive(false);
+        if (gameOverText != null) gameOverText.gameObject.SetActive(false);
+
+        StartCoroutine(SpawnRoutine());
     }
 
     void Update()
     {
         if (isGameOver)
         {
-            // Input mientras está en game over
             if (canRestart)
             {
-                if (Input.GetMouseButtonDown(0)) // click izquierdo
-                {
+                if (Input.GetMouseButtonDown(0))
                     SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-                }
                 else if (Input.GetKeyDown(KeyCode.Escape))
-                {
                     SceneManager.LoadScene("MainMenuTP2");
-                }
             }
             return;
         }
 
-        // Timer
         timer -= Time.deltaTime;
         if (timer < 0) timer = 0;
 
-        timerText.text = "TIME " + Mathf.Ceil(timer);
+        if (timerText != null) timerText.text = "TIME: " + Mathf.Ceil(timer);
 
-        if (timer <= 0 && !isGameOver)
+        if (timer <= 0 && !isGameOver) EndGame();
+    }
+
+    IEnumerator SpawnRoutine()
+    {
+        while (!isGameOver)
         {
-            EndGame();
+            SpawnObject();
+            yield return new WaitForSeconds(spawnInterval);
         }
     }
 
-    public void AddPoint()
+    void SpawnObject()
     {
-        points++;
-        timer += 2f;
-        UpdateUI();
-        SpawnPortal();
-    }
+        GameObject prefab = null;
+        int random = Random.Range(0, 4);
 
-    void SpawnPortal()
-    {
-        if (currentPortal != null)
+        switch (random)
         {
-            Destroy(currentPortal);
+            case 0: prefab = metalPrefab; break;
+            case 1: prefab = maderaPrefab; break;
+            case 2: prefab = plasticoPrefab; break;
+            case 3: prefab = vidrioPrefab; break;
         }
+
+        if (prefab == null) return;
 
         float x = Random.Range(leftLimit.position.x, rightLimit.position.x);
         float y = Random.Range(bottomLimit.position.y, topLimit.position.y);
         Vector3 spawnPos = new Vector3(x, y, 0);
 
-        currentPortal = Instantiate(portalPrefab, spawnPos, Quaternion.identity);
-        currentPortal.GetComponent<Portal>().Init(this);
+        Instantiate(prefab, spawnPos, Quaternion.identity);
+    }
+
+    public void AddPoints(int value, float timeBonus)
+    {
+        points += value;
+        timer += timeBonus;
+        UpdateUI();
+    }
+
+    public void SubtractPoints(int value, float timePenalty)
+    {
+        points -= value;
+        timer -= timePenalty;
+        if (timer < 0) timer = 0;
+        UpdateUI();
     }
 
     void UpdateUI()
     {
-        pointsText.text = "POINTS " + points;
+        if (pointsText != null) pointsText.text = "POINTS: " + points;
     }
 
     void EndGame()
     {
         isGameOver = true;
-        Time.timeScale = 0f; // pausa el juego
+        Time.timeScale = 0f;
 
-        gameOverText.gameObject.SetActive(true);
-        gameOverText.text = "GAME OVER\nPuntuación: " + points;
-
-        StartCoroutine(EnableRestartAfterDelay(3f));
+        if (gameOverText != null)
+        {
+            gameOverText.gameObject.SetActive(true);
+            gameOverText.text = "GAME OVER\nPUNTOS: " + points;
+            StartCoroutine(EnableRestartAfterDelay(3f));
+        }
     }
 
     IEnumerator EnableRestartAfterDelay(float delay)
     {
-        yield return new WaitForSecondsRealtime(delay); // usa tiempo real, no el de la escala
+        yield return new WaitForSecondsRealtime(delay);
         canRestart = true;
-        gameOverText.text += "\n\nClick Izquierdo = Reiniciar\nEscape = Menú";
+        if (gameOverText != null)
+            gameOverText.text += "\n\nClick Izquierdo = Reiniciar\nEscape = Menú";
     }
 }

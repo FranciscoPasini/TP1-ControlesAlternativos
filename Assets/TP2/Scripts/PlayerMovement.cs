@@ -11,7 +11,6 @@ public class PlayerMovement : MonoBehaviour
     private Vector3 lastMousePos;
     private Vector3 movement;
 
-    [Header("Límites (asignar en Inspector)")]
     public Transform leftLimit;
     public Transform rightLimit;
     public Transform topLimit;
