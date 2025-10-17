@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Zombie
   - Pickup
+  - Wall
   layers:
   - Default
   - TransparentFX
@@ -19,7 +20,7 @@ TagManager:
   - Madera
   - Vidrio
   - Pickup
-  - 
+  - Wall
   - 
   - 
   - 

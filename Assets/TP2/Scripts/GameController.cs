@@ -28,6 +28,9 @@ public class GameController : MonoBehaviour
     public float timer = 60f;
     public float spawnInterval = 5f;
 
+    [Header("Layout Manager")]
+    public LayoutManager layoutManager; //  arrastrar el layout manager aquí en el inspector
+
     private int points = 0;
     private bool isGameOver = false;
     private bool canRestart = false;
@@ -105,6 +108,10 @@ public class GameController : MonoBehaviour
         points += value;
         timer += timeBonus;
         UpdateUI();
+
+        //  avisar al LayoutManager del nuevo puntaje
+        if (layoutManager != null)
+            layoutManager.OnScoreChanged(points);
     }
 
     public void SubtractPoints(int value, float timePenalty)
@@ -113,6 +120,10 @@ public class GameController : MonoBehaviour
         timer -= timePenalty;
         if (timer < 0) timer = 0;
         UpdateUI();
+
+        //  también avisar al LayoutManager por si baja de nivel
+        if (layoutManager != null)
+            layoutManager.OnScoreChanged(points);
     }
 
     void UpdateUI()
