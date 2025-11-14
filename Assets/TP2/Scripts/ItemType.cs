@@ -1,7 +1,7 @@
 public enum ItemType
 {
-    Metal,
+    Cemento,
     Madera,
-    Plastico,
+    Ladrillo,
     Vidrio
 }

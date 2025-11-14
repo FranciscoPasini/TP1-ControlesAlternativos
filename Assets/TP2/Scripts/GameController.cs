@@ -8,9 +8,9 @@ public class GameController : MonoBehaviour
     public static GameController Instance { get; private set; }
 
     [Header("Prefabs de objetos")]
-    public GameObject metalPrefab;
+    public GameObject cementPrefab;
     public GameObject maderaPrefab;
-    public GameObject plasticoPrefab;
+    public GameObject ladrilloPrefab;
     public GameObject vidrioPrefab;
 
     [Header("Limites de spawn")]
@@ -88,9 +88,9 @@ public class GameController : MonoBehaviour
 
         switch (random)
         {
-            case 0: prefab = metalPrefab; break;
+            case 0: prefab = cementPrefab; break;
             case 1: prefab = maderaPrefab; break;
-            case 2: prefab = plasticoPrefab; break;
+            case 2: prefab = ladrilloPrefab; break;
             case 3: prefab = vidrioPrefab; break;
         }
 
@@ -139,7 +139,7 @@ public class GameController : MonoBehaviour
         if (gameOverText != null)
         {
             gameOverText.gameObject.SetActive(true);
-            gameOverText.text = "GAME OVER\nPUNTOS: " + points;
+            gameOverText.text = "GAME OVER\nPOINTS: " + points;
             StartCoroutine(EnableRestartAfterDelay(3f));
         }
     }
@@ -149,6 +149,6 @@ public class GameController : MonoBehaviour
         yield return new WaitForSecondsRealtime(delay);
         canRestart = true;
         if (gameOverText != null)
-            gameOverText.text += "\n\nClick Izquierdo = Reiniciar\nEscape = Menú";
+            gameOverText.text += "\n\nClutch = Restart";
     }
 }

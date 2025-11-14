@@ -1,0 +1,843 @@
+fileFormatVersion: 2
+guid: b486a81846ef51645b288f297df5dcbd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7920978686413461090
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_0
+  - first:
+      213: -7868384272252176543
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_1
+  - first:
+      213: -4457109555019382917
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_2
+  - first:
+      213: -2442068206029987204
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_3
+  - first:
+      213: -7397591535250971952
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_4
+  - first:
+      213: -8330386484226976772
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_5
+  - first:
+      213: 8204487893546469236
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_6
+  - first:
+      213: -6890870838408383690
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_7
+  - first:
+      213: -5373708192807862649
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_8
+  - first:
+      213: -6759252102959970865
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_9
+  - first:
+      213: -721038761780778962
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_10
+  - first:
+      213: -7218209937663592377
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_11
+  - first:
+      213: 2589454759539016453
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_12
+  - first:
+      213: -5052868922362537978
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_13
+  - first:
+      213: -1682667413051681668
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_14
+  - first:
+      213: 3912113118524007732
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_15
+  - first:
+      213: 1199947141520079005
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_16
+  - first:
+      213: -2064637768993530047
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_17
+  - first:
+      213: -4405319209772714996
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_18
+  - first:
+      213: 4725950714889263123
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_19
+  - first:
+      213: -1944826963799332516
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_20
+  - first:
+      213: -2973818705622759645
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_21
+  - first:
+      213: -7999854467000233486
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_22
+  - first:
+      213: 6980666102901412988
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_23
+  - first:
+      213: 140847157622264210
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_24
+  - first:
+      213: -4430378112909083774
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_25
+  - first:
+      213: 1100223508050996306
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_26
+  - first:
+      213: 8811146432057185851
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_27
+  - first:
+      213: 6536475741440853779
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_28
+  - first:
+      213: 7925451354057845293
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_29
+  - first:
+      213: -4350201416633352638
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_30
+  - first:
+      213: 5883864699800246576
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_31
+  - first:
+      213: -2999297692626926558
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_32
+  - first:
+      213: -181078738379470985
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_33
+  - first:
+      213: 1575336960764949141
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_34
+  - first:
+      213: -5508152430146022984
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_35
+  - first:
+      213: -3714418797484195180
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_36
+  - first:
+      213: -6013880674059818060
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_37
+  - first:
+      213: 6409058937448898041
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_38
+  - first:
+      213: -5740208718286028052
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_39
+  - first:
+      213: 4304272188228546360
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_40
+  - first:
+      213: 7849342579211214079
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_41
+  - first:
+      213: 7387227977837540517
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_42
+  - first:
+      213: 1208844145458431959
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_43
+  - first:
+      213: 5208804052449392998
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_44
+  - first:
+      213: 8696439979130587405
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_45
+  - first:
+      213: 6060242110923946745
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_46
+  - first:
+      213: 6197924857528958689
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_47
+  - first:
+      213: 3155583773484501571
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_48
+  - first:
+      213: 3380602373021720929
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_49
+  - first:
+      213: -7074104073548069542
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_50
+  - first:
+      213: -8693939012608333650
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_51
+  - first:
+      213: 6902763990626800129
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_52
+  - first:
+      213: 2387933185804034147
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_53
+  - first:
+      213: -5532901583689496470
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_54
+  - first:
+      213: 3105561072244979882
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_55
+  - first:
+      213: -5354048919163132881
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_56
+  - first:
+      213: -8958669046595369382
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_57
+  - first:
+      213: 6702470479178772794
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_58
+  - first:
+      213: 7589347456066611405
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_59
+  - first:
+      213: -5315682626192237288
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_60
+  - first:
+      213: -335312775179407557
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_61
+  - first:
+      213: 8271391558325240985
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_62
+  - first:
+      213: -4234776109278308981
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_63
+  - first:
+      213: 7396316585501278321
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_64
+  - first:
+      213: -2460247105821907010
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_65
+  - first:
+      213: -5633619901432225665
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_66
+  - first:
+      213: -7377062520810655867
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_67
+  - first:
+      213: -8808074835250868855
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_68
+  - first:
+      213: -3204714533724092051
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_69
+  - first:
+      213: 2897012861563034448
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_70
+  - first:
+      213: 6167025398496513678
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_71
+  - first:
+      213: 2258942719709506925
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_72
+  - first:
+      213: 109197549611032702
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_73
+  - first:
+      213: 5831130431543539866
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_74
+  - first:
+      213: -7563385108354013628
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_75
+  - first:
+      213: -2197349436284185117
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_76
+  - first:
+      213: 6741986523303313666
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_77
+  - first:
+      213: 2284500065781940554
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_78
+  - first:
+      213: -4258013693342664435
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_79
+  - first:
+      213: -8587262269222973251
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_80
+  - first:
+      213: -6792997020256601824
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_81
+  - first:
+      213: 4658290561038607518
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_82
+  - first:
+      213: -3796505157886898074
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_83
+  - first:
+      213: 8382478202067868378
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_84
+  - first:
+      213: 8989974815235124075
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_85
+  - first:
+      213: -7028471906154621289
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_86
+  - first:
+      213: -5912244015286841667
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_87
+  - first:
+      213: -1028489889447395564
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_88
+  - first:
+      213: -8031603467739036279
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_89
+  - first:
+      213: -8403422190695110309
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_90
+  - first:
+      213: 229222554529749603
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_91
+  - first:
+      213: 6793769896149614083
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_92
+  - first:
+      213: 4230813740154440514
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_93
+  - first:
+      213: -4019109097888021537
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_94
+  - first:
+      213: 331172137262624233
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_95
+  - first:
+      213: -1496346258721328931
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_96
+  - first:
+      213: -2681237444397785060
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_97
+  - first:
+      213: 1517806302572814796
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_98
+  - first:
+      213: 2706033340401367225
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_99
+  - first:
+      213: 626773787686996906
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_100
+  - first:
+      213: 3749115300849278798
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_101
+  - first:
+      213: 3027152585378090539
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_102
+  - first:
+      213: -8149447818509669218
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_103
+  - first:
+      213: 2751209113010602270
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_104
+  - first:
+      213: 5912992964771519574
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_105
+  - first:
+      213: 4922233396329388123
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_106
+  - first:
+      213: 823576724611047903
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_107
+  - first:
+      213: -7291788961454107545
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_108
+  - first:
+      213: -570139015553562668
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_109
+  - first:
+      213: 4015545636821524940
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_110
+  - first:
+      213: 5156650695145137840
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_111
+  - first:
+      213: -2188747597514369877
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_112
+  - first:
+      213: -8713119263357583080
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_113
+  - first:
+      213: -7982185128963681860
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_114
+  - first:
+      213: -2202664259744756747
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_115
+  - first:
+      213: -6541379139249226562
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_116
+  - first:
+      213: -2710049342439919611
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_117
+  - first:
+      213: -8370152629202793270
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_118
+  - first:
+      213: 6696486346640824591
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_119
+  - first:
+      213: -8120650068768759109
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_120
+  - first:
+      213: -1897230928777685897
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_121
+  - first:
+      213: -7056426629862585860
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_122
+  - first:
+      213: 8046803099402210797
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_123
+  - first:
+      213: 4647437535309865932
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_124
+  - first:
+      213: 4895134503483195439
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_125
+  - first:
+      213: 5145829787354536806
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_126
+  - first:
+      213: 7091926070116600409
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_127
+  - first:
+      213: -5542510712070584958
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_128
+  - first:
+      213: 8146794303717935058
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_129
+  - first:
+      213: -6518368275723789802
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_130
+  - first:
+      213: 5583680395862568654
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_131
+  - first:
+      213: -2318785973010079917
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_132
+  - first:
+      213: -754702561753383319
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_133
+  - first:
+      213: -2937782724757063911
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_134
+  - first:
+      213: -8952970433145945552
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_135
+  - first:
+      213: 9145507205399397283
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_136
+  - first:
+      213: -374912856388899671
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_137
+  - first:
+      213: -4108940903125731883
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_138
+  - first:
+      213: 383792279241599522
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_139
+  - first:
+      213: -9013719495016810113
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_140
+  - first:
+      213: 8654445396076102576
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_141
+  - first:
+      213: -8233779464439330735
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_142
+  - first:
+      213: -9052245572804802641
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_143
+  - first:
+      213: -2630801341928780318
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_144
+  - first:
+      213: 1844407735771281775
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_145
+  - first:
+      213: 9082578559725807741
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_146
+  - first:
+      213: 3215118017223557519
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_147
+  - first:
+      213: -5052465653864016029
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_148
+  - first:
+      213: -4341667496472303551
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_149
+  - first:
+      213: -7185768523985632066
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_150
+  - first:
+      213: -1714316601196633611
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_151
+  - first:
+      213: -668762601074447330
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_152
+  - first:
+      213: -7582406025926663207
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_153
+  - first:
+      213: 302767841108056081
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_154
+  - first:
+      213: -7773761621270173348
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_155
+  - first:
+      213: -8884607048367862614
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_156
+  - first:
+      213: 3368347716736683985
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_157
+  - first:
+      213: 2424951042314735158
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_158
+  - first:
+      213: -8423691449289493799
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_159
+  - first:
+      213: 2504921466217020618
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_160
+  - first:
+      213: -3571288704839839736
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_161
+  - first:
+      213: -7466970757420289278
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_162
+  - first:
+      213: 3682615183851234010
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_163
+  - first:
+      213: 4548340448790945166
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_164
+  - first:
+      213: 9121857210191518328
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_165
+  - first:
+      213: 1801655772238045096
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_166
+  - first:
+      213: -359933872754323236
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_167
+  - first:
+      213: -9061617260348471792
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_168
+  - first:
+      213: -4469622075492599812
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_169
+  - first:
+      213: -7058448084576639867
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_170
+  - first:
+      213: 3414103444950445740
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_171
+  - first:
+      213: 7430502277416017720
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_172
+  - first:
+      213: -4304241977771236783
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_173
+  - first:
+      213: -6703677003469780424
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_174
+  - first:
+      213: -2354086143817334186
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_175
+  - first:
+      213: -675017405693718100
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_176
+  - first:
+      213: -7893715688844669673
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_177
+  - first:
+      213: 5982906144430023936
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_178
+  - first:
+      213: 3092823061774487878
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_179
+  - first:
+      213: 5972161032469309756
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_180
+  - first:
+      213: 5713447301479537851
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_181
+  - first:
+      213: -8313508624849298984
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_182
+  - first:
+      213: 55051380890703811
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_183
+  - first:
+      213: -3393645373320523156
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_184
+  - first:
+      213: 4464189152052171120
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_185
+  - first:
+      213: 226281868050535698
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_186
+  - first:
+      213: -692727593019471153
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_187
+  - first:
+      213: 3587470035387560661
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_188
+  - first:
+      213: 5583850721577839738
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_189
+  - first:
+      213: -5590154316269555745
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_190
+  - first:
+      213: -3756148556259274216
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_191
+  - first:
+      213: 3276509660136824547
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_192
+  - first:
+      213: 4401418886802625605
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_193
+  - first:
+      213: 6656775164859096152
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_194
+  - first:
+      213: 6665389090242127531
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_195
+  - first:
+      213: 5448638029303867413
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_196
+  - first:
+      213: -3383358933940351037
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_197
+  - first:
+      213: 2553694580240218183
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_198
+  - first:
+      213: 4509153138864180715
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_199
+  - first:
+      213: -3526589452863101271
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_200
+  - first:
+      213: -4843413283500810291
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_201
+  - first:
+      213: 6159953580429889759
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_202
+  - first:
+      213: 3184598680788510369
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_203
+  - first:
+      213: -6491121319015078740
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_204
+  - first:
+      213: 1149255454216633371
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_205
+  - first:
+      213: 4626625409777917670
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_206
+  - first:
+      213: 7977784489287860288
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_207
+  - first:
+      213: -5821326984654554525
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_208
+  - first:
+      213: 6849018205688870223
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_209
+  - first:
+      213: 28805235557516035
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_210
+  - first:
+      213: -7808037111421011434
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_211
+  - first:
+      213: -2478566815445337843
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_212
+  - first:
+      213: 102309184362590735
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_213
+  - first:
+      213: 8230617655282726667
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_214
+  - first:
+      213: 3111213658978102660
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_215
+  - first:
+      213: -287226526039163266
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_216
+  - first:
+      213: -7676221804934151954
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_217
+  - first:
+      213: 1230939280353801479
+    second: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_218
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_6
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 244
+        width: 377
+        height: 545
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47784da15423cd170800000000000000
+      internalID: 8204487893546469236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_21
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 259
+        width: 432
+        height: 464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32781f8a4afdab6d0800000000000000
+      internalID: -2973818705622759645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 011e9cf759d070e41a54250b201637d5
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_0: 7920978686413461090
+      20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_1: -7868384272252176543
+      20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_10: -721038761780778962
+      20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_11: -7218209937663592377
+      20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_12: 2589454759539016453
+      20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_13: -5052868922362537978
+      20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_14: -1682667413051681668
+      20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_15: 3912113118524007732
+      20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_16: 1199947141520079005
+      20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_17: -2064637768993530047
+      20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_18: -4405319209772714996
+      20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_19: 4725950714889263123
+      20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_2: -4457109555019382917
+      20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_20: -1944826963799332516
+      20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_21: -2973818705622759645
+      20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_22: -7999854467000233486
+      20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_23: 6980666102901412988
+      20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_24: 140847157622264210
+      20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_25: -4430378112909083774
+      20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_26: 1100223508050996306
+      20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_27: 8811146432057185851
+      20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_28: 6536475741440853779
+      20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_29: 7925451354057845293
+      20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_3: -2442068206029987204
+      20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_4: -7397591535250971952
+      20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_5: -8330386484226976772
+      20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_6: 8204487893546469236
+      20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_7: -6890870838408383690
+      20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_8: -5373708192807862649
+      20251114_1422_Glass Pane Sprite_simple_compose_01ka1p3bnkfmp8wtjz7ej230ab_9: -6759252102959970865
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
