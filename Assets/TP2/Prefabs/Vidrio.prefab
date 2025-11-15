@@ -179,7 +179,7 @@ MonoBehaviour:
   IsPickedUp: 0
   points: 1
   penalty: 0
-  timeBonus: 15
+  timeBonus: 7
   timePenalty: 2
 --- !u!1 &5649556219348003784
 GameObject:

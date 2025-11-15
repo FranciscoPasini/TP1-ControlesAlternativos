@@ -265,5 +265,5 @@ MonoBehaviour:
   IsPickedUp: 0
   points: 1
   penalty: 0
-  timeBonus: 15
+  timeBonus: 7
   timePenalty: 2
