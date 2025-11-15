@@ -1870,7 +1870,7 @@ MonoBehaviour:
   pointsText: {fileID: 1544446827}
   timerText: {fileID: 97332839}
   gameOverText: {fileID: 487908749}
-  timer: 2
+  timer: 15
   spawnInterval: 5
   layoutManager: {fileID: 1104286079}
 --- !u!4 &1271385231 stripped
