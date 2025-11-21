@@ -30,6 +30,7 @@ public class GameController : MonoBehaviour
 
     [Header("Layout Manager")]
     public LayoutManager layoutManager; //  arrastrar el layout manager aquí en el inspector
+    public DeliveryProgression deliveryProgression;
 
     private int points = 0;
     private bool isGameOver = false;
@@ -39,6 +40,9 @@ public class GameController : MonoBehaviour
     {
         if (Instance == null) Instance = this;
         else Destroy(gameObject);
+
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.None;
     }
 
     void Start()
@@ -57,8 +61,6 @@ public class GameController : MonoBehaviour
             if (canRestart)
             {
                 if (Input.GetMouseButtonDown(0))
-                    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-                else if (Input.GetKeyDown(KeyCode.Escape))
                     SceneManager.LoadScene("MainMenuTP2");
             }
             return;
@@ -83,24 +85,18 @@ public class GameController : MonoBehaviour
 
     void SpawnObject()
     {
-        GameObject prefab = null;
-        int random = Random.Range(0, 4);
+        if (deliveryProgression == null || !deliveryProgression.IsInitialized)
+            return;
 
-        switch (random)
-        {
-            case 0: prefab = cementPrefab; break;
-            case 1: prefab = maderaPrefab; break;
-            case 2: prefab = ladrilloPrefab; break;
-            case 3: prefab = vidrioPrefab; break;
-        }
+        GameObject prefab = deliveryProgression.GetRandomUnlockedMaterial(points);
 
-        if (prefab == null) return;
+        if (prefab == null)
+            return;
 
         float x = Random.Range(leftLimit.position.x, rightLimit.position.x);
         float y = Random.Range(bottomLimit.position.y, topLimit.position.y);
-        Vector3 spawnPos = new Vector3(x, y, 0);
 
-        Instantiate(prefab, spawnPos, Quaternion.identity);
+        Instantiate(prefab, new Vector3(x, y, 0), Quaternion.identity);
     }
 
     public void AddPoints(int value, float timeBonus)

@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/TP2/Scenes/MainMenuTP2.unity
     guid: ff7e1fc6bc36e564e961553265dc191a
   - enabled: 1
+    path: Assets/TP2/Scenes/CalibrationScene.unity
+    guid: 7f0995a2690b4024c9209d1196b22e32
+  - enabled: 1
     path: Assets/TP2/Scenes/GameTP2.unity
     guid: 71c66a993e0f99947a8ce56204e9477b
   - enabled: 0

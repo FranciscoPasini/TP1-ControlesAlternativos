@@ -6,6 +6,12 @@ using UnityEngine;
 
 public class MainMenuManager : MonoBehaviour
 {
+    void Start()
+    {
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.None;
+    }
+
     public void Update()
     {
         if (Input.GetMouseButtonDown(0))
@@ -22,7 +28,7 @@ public class MainMenuManager : MonoBehaviour
     public void PlayGame()
     {
         Time.timeScale = 1f;              // por si venías de un pause/game over
-        SceneManager.LoadScene("GameTP2");
+        SceneManager.LoadScene("CalibrationScene");
     }
 
     public void LoadMainMenu()
