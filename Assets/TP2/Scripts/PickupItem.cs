@@ -23,7 +23,7 @@ public class PickupItem : MonoBehaviour
         transform.SetParent(playerTransform);
 
         // Ajustar posición donde vos quieras que el objeto se vea
-        transform.localPosition = new Vector3(0, -0.8f, 0);
+        transform.localPosition = new Vector3(0, -0.4f, 0);
     }
 
     private void Update()
