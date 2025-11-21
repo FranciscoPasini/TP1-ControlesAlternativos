@@ -105,7 +105,9 @@ public class GameController : MonoBehaviour
         timer += timeBonus;
         UpdateUI();
 
-        //  avisar al LayoutManager del nuevo puntaje
+        // color verde por un segundo
+        StartCoroutine(FlashTimerColor(Color.green, 1f));
+
         if (layoutManager != null)
             layoutManager.OnScoreChanged(points);
     }
@@ -117,10 +119,13 @@ public class GameController : MonoBehaviour
         if (timer < 0) timer = 0;
         UpdateUI();
 
-        //  también avisar al LayoutManager por si baja de nivel
+        // color rojo por un segundo
+        StartCoroutine(FlashTimerColor(Color.red, 1f));
+
         if (layoutManager != null)
             layoutManager.OnScoreChanged(points);
     }
+
 
     void UpdateUI()
     {
@@ -146,5 +151,18 @@ public class GameController : MonoBehaviour
         canRestart = true;
         if (gameOverText != null)
             gameOverText.text += "\n\nClutch = Restart";
+    }
+
+    IEnumerator FlashTimerColor(Color flashColor, float duration)
+    {
+        if (timerText == null)
+            yield break;
+
+        Color original = timerText.color;
+        timerText.color = flashColor;
+
+        yield return new WaitForSeconds(duration);
+
+        timerText.color = original;
     }
 }
